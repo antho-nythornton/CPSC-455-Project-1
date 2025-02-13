@@ -45,7 +45,7 @@ const Chat = ({ userName }) => {
               userName === message.userName ? "flex-end" : "flex-start"
             }`}
           >
-            <section>{message.userName[0].toUpperCase()}</section>
+            <section>{message.userName ? message.userName[0].toUpperCase() : "?"}</section>
             <h4>{message.userName + ":"}</h4>
             <p>{message.message}</p>
           </div>
