@@ -1,5 +1,5 @@
 body {
-  background-color: #ddc6ed;
+  background-color: lightblue;
   margin: 0;
   font-family: sans-serif;
 }
@@ -7,14 +7,14 @@ body {
 .main {
   height: 100vh;
   width: 100vw;
-  background-color: #ddc6ed;
+  background-color: lightblue;
 }
 
 .title {
   text-align: center;
   width: 100%;
   padding: 2%;
-  background-color: #9537d8;
+  background-color: blue;
   color: #efefef;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 input {
   border-radius: 10px;
-  border: 1px solid indigo;
+  border: 1px solid blue;
   padding: 10px 15px;
   font-size: 20px;
   flex: 1;
@@ -82,7 +82,7 @@ input {
 button {
   border-radius: 10px;
   font-size: 20px;
-  background-color: indigo;
+  background-color: blue;
   color: #fff;
   border: none;
   padding: 10px 30px;
